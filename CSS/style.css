@@ -1,0 +1,49 @@
+/* Importing Google fonts */
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700");
+
+/* Importing component files */
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/card.css"); 
+
+/* General style rules for fonts and colors */
+body {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Container for centering content */
+.container {
+    width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Card styles */
+.card-white {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.typeform-container {
+    margin: 40px auto; /* 上下边距 */
+    max-width: 800px; /* 最大宽度 */
+    padding: 20px; /* 内边距 */
+    background-color: white; /* 背景颜色 */
+    border-radius: 10px; /* 圆角 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

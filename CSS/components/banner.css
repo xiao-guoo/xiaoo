@@ -1,0 +1,21 @@
+.banner {
+    background-image: url('../../images/back.JPG'); /* 背景图片路径 */
+    background-size: cover; /* 图片覆盖整个区域 */
+    background-position: center; /* 图片居中 */
+    padding: 150px 0; /* 上下内边距 */
+    text-align: center; /* 文字居中 */
+}
+
+.banner h1 {
+    color: white;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.banner h2 {
+    color: white;
+    font-size: 30px;
+    font-weight: lighter;
+    opacity: 0.8;
+    margin-bottom: 40px;
+}
