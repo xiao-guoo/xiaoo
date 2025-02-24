@@ -1,0 +1,47 @@
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+.card img {
+    width: 150px;
+    border-radius: 5px;
+}
+
+.card h3 {
+    flex-grow: 1;
+    padding-left: 20px;
+    font-size: 24px;
+    color: #2c3e50;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.card {
+    flex-basis: calc(25% - 20px); /* 每行显示 4 个卡片 */
+    flex-grow: 1;
+    margin: 10px;
+}
+
+@media (max-width: 768px) {
+    .card {
+        flex-basis: calc(50% - 20px); /* 在小屏幕上每行显示 2 个卡片 */
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        flex-basis: 100%; /* 在超小屏幕上每行显示 1 个卡片 */
+    }
+}
